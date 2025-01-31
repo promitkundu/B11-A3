@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop</title>
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/ea191d8cd8.js" crossorigin="anonymous"></script>
+
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +16,11 @@
             font-family: "ADLaM Display", serif;
         }
     </style>
+
     <!-- daisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>    
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -30,6 +35,42 @@
         }
       </script>
 </head>
-<body class="font-adlam">
+<body class="font-adlame">
+    <header class="mg:container mx-auto">
+        <nav>
+            <div class="navbar bg-orange-100 ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                  </div>
+                  <img src="image/logo-header.png" class="size-8" alt="">
+                  <a class="font-bold text-xl">Browse4Pets</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Find a Pet</a></li>
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end hidden lg:flex">
+                  <i class="fa-regular fa-bell mr-3"></i>
+                  <i class="fa-solid fa-magnifying-glass mr-3"></i>
+                  <a class="btn mr-3">Login</a>
+                  <a class="btn">Register</a>
+                </div>
+              </div>
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden dropdown">
+                      <i class="fa-solid fa-bars"></i>
+              </div>
+        </nav>
+    </header>
+
+    <main class="mg:container mx-auto">
+
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
