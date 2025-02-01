@@ -310,8 +310,8 @@
                 <h2 class="text-5xl font-bold">Everyday Low Price</h2>
             </div>
     <section>   
-        <div class="mx-auto grid gap-10 w-fit grid-cols-1 lg:grid-cols-7">  <!-- mother div -->
-        <div class="card card-side bg-gradient-to-r from-pink-200 to-indigo-300  col-span-1 row-span-1 lg:col-span-4 lg:row-span-2 p-4 lg:flex-row-reverse">  <!-- card 1  -->
+        <div class="mx-auto grid gap-10 w-fit grid-cols-1 lg:grid-cols-5">  <!-- mother div -->
+        <div class="card card-side bg-gradient-to-r from-pink-200 to-indigo-300  col-span-1 row-span-1 lg:col-span-3 lg:row-span-2 p-4 lg:flex-row-reverse">  <!-- card 1  -->
             <figure>
               <img src="image/cute-dog-mid.png" alt="" />
             </figure>
@@ -319,11 +319,11 @@
                 <p><span class="hidden md:block">Under Price</span> <br>
                 <span class="text-2xl">Pet Grooming Mitt</span> <br>
                 <span class="text-white hidden md:block">(Easy Hair Removal)</span><br>
-                <span class="text-5xl">$7.99</span></p>
+                <span class="text-5xl text-white md:text-black">$7.99</span></p>
             </div>
         </div>
 
-        <div class="card card-side bg-gradient-to-r from-yellow-100 to-amber-300 col-span-1 row-span-1 lg:col-span-3 lg:row-span-2 p-4 w-fit lg:flex-row-reverse">  <!-- card 2  -->
+        <div class="card card-side bg-gradient-to-r from-yellow-100 to-amber-300 col-span-1 row-span-1 lg:col-span-2 lg:row-span-2 p-4 w-fit lg:flex-row-reverse">  <!-- card 2  -->
             <figure>
               <img src="image/cute-pet-small.png" alt=""/>
             </figure>
@@ -336,20 +336,44 @@
 
     </section>
     </section>  <!-- section 4 ends here -->
+   
+    <section class="mt-14"> <!-- section 4.5 starts here -->
+        <div class="collapse collapse-plus bg-orange-200 border-red-100 border-2">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What food is best for a puppy?</div>
+            <div class="collapse-content">
+              <p>High-quality, protein-rich puppy food with essential nutrients.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-orange-200 border-red-100 border-2">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">How often should I clean a fish tank?</div>
+            <div class="collapse-content">
+              <p>Partial water changes every week; deep clean monthly.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-orange-200 border-red-100 border-2">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">Do cats need vaccinations?</div>
+            <div class="collapse-content">
+              <p>Yes, core vaccines protect against serious diseases.</p>
+            </div>
+          </div>
+    </section><!-- section 4.5 ends here -->
         
     <section class="flex flex-col mg:flex-row justify-center items-center mt-14">   <!-- section 5 starts here -->
-        <div class="card card-side bg-orange-100 grid grid-cols-1 md:grid-cols-2 gap-2 justify-items-center items-center">  <!-- card 1  -->
+        <div class="card card-side bg-orange-100 grid grid-cols-1 md:grid-cols-2 gap-2 justify-items-center items-center"> 
             <figure>
               <img src="image/cute-pet-small.png" alt=""/>
             </figure>
-            <div class="card-body">
+            <div class="card-body ">
                 <p><span class="text-2xl">Get Pawsome News!</span> <br>
                     <span class="">Exclusive training tips, ticks, product deals and more.</span> <br> <br>
                     <span><input type="email" placeholder="write your email" class="w-fit" ></span><br><br>
                     <span><button class="btn btn-warning">Subscribe</button></span></p>
            </div>
-        </div>
-    </section>
+        </div>  
+    </section> <!-- section 5 ends here -->
     </main>
 <!-- footer starts here -->
         <footer class="footer bg-yellow-200 text-base-content pt-64 -mt-32 pl-5 md:pl-64">
@@ -405,6 +429,6 @@
                 </a>
               </div>
             </nav>
-          </footer>
+          </footer> <!-- footer ends here -->
 </body>
 </html>
